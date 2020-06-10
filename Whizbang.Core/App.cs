@@ -14,7 +14,7 @@ namespace Whizbang.Core
 {
     public sealed class App
     {
-        private static IDisposableContainer _container;
+        private static IContainer _container;
 
         public static void Init()
         {
