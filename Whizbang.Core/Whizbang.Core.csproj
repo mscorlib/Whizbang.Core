@@ -6,6 +6,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>mscorlib@live.com</Authors>
         <PackageIcon>Whizbang.png</PackageIcon>
+        <PackageVersion>1.1.0</PackageVersion>
         <PackageProjectUrl>https://github.com/mscorlib/Whizbang.Core</PackageProjectUrl>
     </PropertyGroup>
 
