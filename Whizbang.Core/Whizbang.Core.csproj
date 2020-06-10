@@ -6,7 +6,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>mscorlib@live.com</Authors>
         <PackageIcon>Whizbang.png</PackageIcon>
-        <PackageProjectUrl>https://gitee.com/mscorlib/Whizbang.Core</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/mscorlib/Whizbang.Core</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' ">

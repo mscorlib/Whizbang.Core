@@ -47,11 +47,7 @@ namespace Whizbang.Core
 
             var builderType = LoadTypeFromSetting(section["ContainerBuilder"]);
 
-            var containerType = LoadTypeFromSetting(section["Container"]);
-
-            var container = containerType.GetProperty("Container").GetValue(null, null);
-
-            var instance = (IContainerBuilder)Activator.CreateInstance(builderType, new[] { container });
+            var instance = (IContainerBuilder)Activator.CreateInstance(builderType);
 
             return instance;
         }
