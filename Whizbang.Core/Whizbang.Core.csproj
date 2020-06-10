@@ -8,6 +8,8 @@
         <PackageIcon>Whizbang.png</PackageIcon>
         <PackageVersion>1.1.0</PackageVersion>
         <PackageProjectUrl>https://github.com/mscorlib/Whizbang.Core</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/mscorlib/Whizbang.Core/blob/master/LICENSE</PackageLicenseUrl>
+        <Description>core components of Whizbang for event-source</Description>
     </PropertyGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' ">
